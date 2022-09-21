@@ -49,7 +49,7 @@ while True:
         else:
             write_register(device, 0x19, 0)
         # don't slam the i2c bus
-        time.sleep(0.1)
+        time.sleep(0.5)
 
     except KeyboardInterrupt:
         # on control-c do...something? try commenting this out and running again? What might this do

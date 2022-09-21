@@ -79,6 +79,7 @@ while True:
 		print('status', button.status)
 		print('last click ms', button.last_click_ms)
 		print('last press ms', button.last_press_ms)
+		# time.sleep(1)
 	except KeyboardInterrupt:
 		button.clear()
 		button.led_bright = 0
